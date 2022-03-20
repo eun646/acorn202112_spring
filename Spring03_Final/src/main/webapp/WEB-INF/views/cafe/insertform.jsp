@@ -95,7 +95,7 @@
 			//textarea 이외에 입력한 내용을 여기서 검증하고 
 			const title=document.querySelector("#title").value;
 			
-			//만일 폼 제출을 막고 싶으면  
+			//만일 폼 제출을 막고 싶으면 
 			//e.preventDefault();
 			//을 수행하게 해서 폼 제출을 막아준다.
 			if(title.length < 5){
